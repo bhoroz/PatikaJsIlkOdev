@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kutu stili */
+#odevKutu {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* İçerik başlıkları */
+.text-center {
+    margin-bottom: 15px;
+}
+
+/* Başlık stili */
+.text1 {
+    font-size: 18px;
+    color: #e98208;
+    margin-bottom: 10px;
+}
+
+/* Saat kutusu */
+.clock {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e98208;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    min-width: 120px;
+}
+
+/* İkinci açıklama metni */
+.text2 {
+    font-size: 14px;
+    color: #e98208;
+}
+
+/* Logo resmi */
+img.rounded {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Özel stil - vurgulamak için */
+strong {
+    color: #e98208;
+}
